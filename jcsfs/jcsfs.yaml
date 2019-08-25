@@ -1,0 +1,12 @@
+---
+# ssh.host - remote hostname
+# ssh.key - path to private ssh key
+# ssh.path - origin path where attachemts are stored on remote system
+# datadir - local directory which contains local copy of files
+#       it shouldn't be the same as mountpoint
+ ssh:
+   host: 127.0.0.1
+   login: dev
+   key: /DEV/fuse/dev_id_rsa
+   path: /temp/source
+ datadir: /DEV/fuse/.data
